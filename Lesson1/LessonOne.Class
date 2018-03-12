@@ -1,0 +1,10 @@
+public class LessonOne {
+
+	public static void main(String[] args) {
+		
+		MyClass myObject = new MyClass();
+		myObject.myName = "Bryce";
+		
+		myObject.myMethod();
+	}
+}
