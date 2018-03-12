@@ -1,0 +1,16 @@
+public class MyClass {
+	
+	public int myInt;
+	public String myName;
+	
+	public MyClass() {
+		myInt = 2;
+		myName = "Nic";
+	}
+	
+	public void myMethod() {
+		System.out.println(myInt);
+		myInt=4;
+		System.out.println(myInt);
+	}
+}
